@@ -5,13 +5,13 @@ body {
   color: rgb(40, 40, 40);
   font-size: 1em;
   margin: 0;
+  background-image: url("assets/cloud-background.jpg"); /* fallback */
   background-image: linear-gradient(-225deg, rgba(240,240,240,50%) 0%, rgba(210,210,210,50%) 50%), url("assets/cloud-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
-
 h1, h2, h3 {
   margin: 0.5em 0;
 }
@@ -23,6 +23,10 @@ h1, h2, h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 2em;
+}
+.header {
+  text-align: center;
 }
 i {
   color: #70A9C1;
